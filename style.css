@@ -88,9 +88,9 @@ body {
   transition: .3s ease all;
 }
 /* HERO */
-.hero {
+/* .hero {
   height: 100vh;
-}
+} */
 .hero::after {
   content: "";
   display: block;
@@ -104,6 +104,7 @@ body {
   clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
 .hero__container {
+  height: 100vh;
   --padding-container: 0;
   display: flex;
   height: 100vh;
@@ -419,8 +420,7 @@ body {
   .hero__container {
     flex-direction: column;
     justify-content: space-around;
-  }.hero__texts {
-    
+    overflow: hidden;
   }
   .hero__picture {
    width: 80%;
