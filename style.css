@@ -104,7 +104,7 @@ body {
   clip-path: polygon(0 100%, 100% 100%, 100% 0);
 }
 .hero__container {
-  height: 100vh;
+  /* height: 100vh; */
   --padding-container: 0;
   display: flex;
   height: 100vh;
@@ -269,7 +269,7 @@ body {
   grid-column: 3/6;
   grid-row: 2/4;
   border-radius: 1rem;
-  box-shadow: 2px 2px 5px #f0f0f045;
+  box-shadow: 0 0 1rem #f0f0f015;
   transform: rotate(5deg);
   display: flex;
   width: 80%;
