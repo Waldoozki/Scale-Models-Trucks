@@ -418,17 +418,16 @@ body {
 @media (max-width:425px) {
   .hero__container {
     flex-direction: column;
-    position: relative;
+    justify-content: space-around;
   }.hero__texts {
-    padding-top: 3rem;
+    
   }
   .hero__picture {
-    position: absolute;
-    bottom: 0;
-    width: 80%;
+   width: 80%;
+   margin-left: auto; 
   }
   .hero::after {
-    --height-shape: 15rem;
+    --height-shape: 23rem;
   }
   /* ABOUT */
   .cta__about {
