@@ -89,7 +89,7 @@ body {
 }
 /* HERO */
 .hero {
-  height: 100vmin;
+  height: 100vh;
   position: relative;
 }
 .hero::after {
@@ -333,9 +333,9 @@ body {
   align-items: center;
 }
 .footer__icon {
-  width: 4rem;
+  width: 3rem;
   padding: .5rem;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 .footer__icon:hover {
   background-color: var(--txt-white-gray);
@@ -420,14 +420,17 @@ body {
 @media (max-width:425px) {
   .hero__container {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+  .hero__texts {
+    margin-top: 60px;
   }
   .hero__picture {
    width: 80%;
    margin-left: auto; 
   }
   .hero::after {
-    --height-shape: 23rem;
+    --height-shape: 15rem;
   }
   /* ABOUT */
   .cta__about {
